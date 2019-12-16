@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    
+}
+.position{
+
+    justify-content: center;
+}
+
+.page-item {
+    display: block;
+    
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 12px;
+   
+}
+
+.page-item:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}

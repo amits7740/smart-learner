@@ -1,0 +1,63 @@
+.productContainer {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.productContainer h1 {
+    margin: 2rem 0;
+}
+
+.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.searchInput {
+    display: flex;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.tt{
+
+    
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(194, 0, 0), rgb(57, 214, 206), rgb(184, 17, 148));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: animate 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.te{
+
+   background-color:  teal;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+.warning-msg
+{
+  margin: 100px 0;
+  padding: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+.warning-msg {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 111, 139);
+  }
