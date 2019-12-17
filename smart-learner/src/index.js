@@ -4,7 +4,7 @@ import './index.css';
 import Home from './components/home/home';
 import Product from './components/product/product'
 import Tshirt from './components/tshirt/tshirt'
-import Search from './components/search/search';
+
 import * as serviceWorker from './serviceWorker';
 import { Router, Route, browserHistory, IndexRoute } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css'
