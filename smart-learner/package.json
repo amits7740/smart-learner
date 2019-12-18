@@ -1,7 +1,7 @@
 {
   "name": "smart-learner",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.7.4",
     "bootstrap": "^4.4.1",
