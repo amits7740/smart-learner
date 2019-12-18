@@ -12,6 +12,7 @@ const Tshirt = () => {
     const [searchValue, setSearchValue] = useState('');
 
     //Get current product
+    /* eslint-disable */
     const indexOfLastProduct = currentPage * productPerPage;
     const indexOfFirstProduct = indexOfLastProduct - productPerPage;
     const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
@@ -19,6 +20,7 @@ const Tshirt = () => {
     //Change page
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+    /* eslint-disable */
     function searchingFor(term) {
         return function(data) {
             return data.sku.toLowerCase().includes(term.toLowerCase()) || data.price.toLowerCase().includes(term.toLowerCase()) || 
