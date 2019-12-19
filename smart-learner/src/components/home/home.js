@@ -1,4 +1,5 @@
 import React from 'react';
+/* eslint-disable */
 import logo from '../../../src/images/logo.svg';
 import './home.css';
 import { Link } from "react-router";

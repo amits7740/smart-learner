@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+/* eslint-disable */
 import { Link } from "react-router";
 import './product.css';
+/* eslint-disable */
 import Table from 'react-bootstrap/Table';
 import ProductData from '../../data/product.json';
 import Pagination from '../pagination/pagination';
+/* eslint-disable */
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const Product = () => {
@@ -39,7 +42,8 @@ const Product = () => {
         <a class="active" href="/"><font color="black">Home</font></a>
         <a href="#about"><font color="black">About</font></a>
         <a href="/"><font color="black">Contact</font></a>
-        
+
+        /* eslint-disable */
         <div class="search-container">
         <input type="text"  size="70" placeholder="Search your Item here"className="input" onChange={(event) => setSearchValue(event.target.value)} />
             <img onclick="startDictation()" src="mic.png" />
@@ -52,7 +56,8 @@ const Product = () => {
             
             </form>
            
-           
+           /* eslint-disable */
+
                 <tbody class="grid-container" >
                 
                     
