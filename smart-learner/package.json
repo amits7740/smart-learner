@@ -13,10 +13,10 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "start": "set PORT=8080 && react-scripts start",
     "build": "webpack",
     "postinstall": "npm run build"
-    "start": "set PORT=8080 && react-scripts start",
-  },
+    },
   "eslintConfig": {
     "extends": "react-app"
   },
