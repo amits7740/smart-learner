@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "set PORT=8080 && react-scripts start",
-    "build": "webpack",
-    "postinstall": "npm run build"
+    "build": "webpack"
     },
   "eslintConfig": {
     "extends": "react-app"
