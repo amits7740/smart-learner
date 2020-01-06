@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ibm-cos-sdk": "1.2.1",
     "@babel/preset-react": "^7.7.4",
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
